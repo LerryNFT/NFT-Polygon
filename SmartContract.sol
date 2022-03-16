@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
 /// @custom:security-contact metawhalez@gmail.com
-contract Fleming is ERC721, ERC721Enumerable, Pausable, Ownable {
+contract OwnerMint is ERC721, ERC721Enumerable, Pausable, Ownable {
     using Counters for Counters.Counter;
     using Strings for uint256;
     Counters.Counter private _tokenIdCounter;
